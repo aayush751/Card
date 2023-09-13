@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card two</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            width: 100vw;
+            height: 100vh;
+            background-color: #85FFBD;
+            background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card
+        {
+            width: 410px;
+            height: 600px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .card img
+        {
+            width: 100%;
+            height: 40%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        .textbox
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            width: 65%;
+        }
+
+        p
+        {
+            font-size: 15px;
+        }
+
+        .Amount{
+            width: 80%;
+            height: 10%;
+            display: flex;
+            gap: 20px;
+            background-color: #8EC5FC;
+            background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+            border-radius: 15px;
+        }
+
+
+        #paymentButton
+        {
+            width: 80%;
+            height: 10%;
+            border-radius: 15px;
+            background-color: rgb(5, 5, 49);
+            color: white;
+            font-weight: 200;
+        }
+
+        span
+        {
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img 
+                src="./cloud-services-isometric-composition-with-big-cloud-computing-infrastructure-elements-connected-with-dashed-lines-vector-illustration_1284-30495.webp"
+            />
+
+            <div class="textbox">
+                <h2>
+                    Order Summary 
+            </h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem esse tempora laudantium possimus voluptatem minima. Eum deleniti praesentium omnis!
+            </p>
+            </div>
+
+            <div class="Amount">
+
+            </div>
+
+            <button id="paymentButton">
+                Proceed to Payment
+            </button>
+
+             <span>
+                <p>
+                    Cancel Order
+                </p>
+             </span>
+        </div>
+    </div>
+</body>
+</html>
